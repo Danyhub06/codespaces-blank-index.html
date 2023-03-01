@@ -13,8 +13,8 @@
   /* Header */
   
   header {
-    background-color: #0077be;
-    color: #fff;
+    background-color: #00beae;
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,7 @@
   }
   
   nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
   }
