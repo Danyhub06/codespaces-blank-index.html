@@ -1,11 +1,11 @@
-/* Stili per il body */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Stili per l'header */
+
 header {
   background-color: #0f0f0f;
   color: #fff;
@@ -42,7 +42,7 @@ nav a:hover {
   border-bottom: 2px solid #fff;
 }
 
-/* Stili per il main */
+
 main {
   padding: 20px;
 }
@@ -67,7 +67,7 @@ img {
   border: 5px solid #333;
 }
 
-/* Stili per il footer */
+
 footer {
   background-color: #333;
   color: #fff;

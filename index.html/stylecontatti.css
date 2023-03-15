@@ -1,0 +1,81 @@
+form label,
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#contatti {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#contatti h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+#contatti ul {
+  margin-bottom: 20px;
+}
+
+#contatti li {
+  margin-bottom: 10px;
+}
+
+#contatti a {
+  color: #333;
+}
+
+#contatti a:hover {
+  text-decoration: underline;
+}
+
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #333;
+}
