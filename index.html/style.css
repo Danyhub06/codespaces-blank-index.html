@@ -12,6 +12,7 @@ header {
   background-color: #000000;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
 header h1 {
@@ -75,4 +76,16 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.logo1{
+position: absolute;
+top: 10px;
+right: 10px;
+
 }
