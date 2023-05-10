@@ -1,0 +1,13 @@
+#immagini {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  #immagini img {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+  }
+  

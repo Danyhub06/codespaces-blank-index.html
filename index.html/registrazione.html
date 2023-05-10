@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+          background-image: url('https://wallpapercave.com/dwp1x/wp5377037.jpg');
+          font-family: Arial, sans-serif;
+          background-color: #000000;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px #ccc;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+    </style>
+
+<title> Pagina registrazioni</title>
+
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="index.html">>Torna alla pagina pricipale<</a>
+        </li>
+        </ul>
+        <!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registrazione Centro Canottaggio</title>
+  <body>
+    <h1>Registrazione Centro Canottaggio</h1>
+    <form action="submit.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br><br>
+
+      <label for="cognome">Cognome:</label>
+      <input type="text" id="cognome" name="cognome" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <label for="conferma_password">Conferma password:</label>
+      <input type="password" id="conferma_password" name="conferma_password" required><br><br>
+
+      <label for="data_nascita">Data di nascita:</label>
+      <input type="date" id="data_nascita" name="data_nascita" required><br><br>
+
+      <label for="sesso">Sesso:</label>
+      <input type="radio" id="maschio" name="sesso" value="maschio" checked>
+      <label for="maschio">Maschio</label>
+      <input type="radio" id="femmina" name="sesso" value="femmina">
+      <label for="femmina">Femmina</label><br><br>
+
+      <label for="Categoria">Categoria:</label>
+      <select id="categoria" name="categoria">
+        <option value="Uomo">Bambino</option>
+        <option value="Donna">Adulto</option>
+      </select><br><br>
+
+      <label for="esperienza">Esperienza:</label>
+      <textarea id="esperienza" name="esperienza" rows="5" cols="30" required></textarea><br><br>
+
+      <input type="submit" value="Registrati">
+    </form>
+</body>
+</html>
